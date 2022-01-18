@@ -1,0 +1,12 @@
+<%= form_for(@restaurant) do |item| %>
+  <%= item.label :name %>
+  <%= item.text_area :name %>
+
+  <%= item.label :address %>
+  <%= item.text_area :address %>
+
+  <%= item.label :category %>
+  <%= item.text_area :category %>
+
+  <%= item.submit %>
+<% end %>
